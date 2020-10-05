@@ -1,0 +1,11 @@
+server:
+  port: 8087
+  ssl:
+    key-store: classpath:www.isevergreen.xyz.pfx
+    key-store-password: hbq275jqh9
+
+app:
+  appid: "f78e7198a73277ef"
+  appsec: "ccf1819dc388e0c624444c68a61b3c10"
+  backurl: "https://isevergreen.xyz:8087/login/auth"
+#  backurl: "http://127.0.0.1:8087/login/auth"
